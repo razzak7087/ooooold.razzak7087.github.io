@@ -30,16 +30,9 @@
     background-color: #51af7c;
     color: white;}
 /* got this font code from w3schools */
-body
-{
-    background-image: url("img/aesthetic.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-/*got this code from Eric*/
 
 
-h1
+
 {
     font-family: "Allerta Stencil", Sans-serifans-serif;
 }
