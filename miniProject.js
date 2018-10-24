@@ -4,27 +4,22 @@ function temperatureBug()
     var score = Number(document.project1.f1.value);
     if (score >= 200)
     {
-        document.getElementById('weather').src = "img/move.jpg";
         return "move somewhere else"
     }
     else if (score >= 76)
     {
-        document.getElementById('weather').src = "img/summer.jpg";
         return 'summer'
     }
     else if (score >= 69)
     {
-        document.getElementById('weather').src = "img/spring.jfif";
         return 'spring'
     }
     else if (score >= 45)
     {
-        document.getElementById('weather').src = "img/autumn.jpg";
         return 'autumn'
     }
     else if (score >= 10)
     {
-        document.getElementById('weather').src = "img/winter.jpg";
         return 'winter'
     }
 
