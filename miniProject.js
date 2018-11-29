@@ -1,3 +1,29 @@
+/*
+Mad Libs Project
+ */
+function madLib()
+{
+    const words = [];
+    words.push(document.getElementById('input1').value);
+    words.push(document.getElementById('input2').value);
+    words.push(document.getElementById('input3').value);
+    words.push(document.getElementById('input4').value);
+    words.push(document.getElementById('input5').value);
+    words.push(document.getElementById('input6').value);
+    words.push(document.getElementById('input7').value);
+    words.push(document.getElementById('input8').value);
+    words.push(document.getElementById('input9').value);
+    words.push(document.getElementById('input10').value);
+    words.push(document.getElementById('input11').value);
+
+    document.getElementById('generate').innerHTML ="Medical science has discovered that smoking cigarettes causes " + words[0].bold() + ". It is also bad for your " +
+        words[1].bold() + " and causes pain in your " + words[2].bold() + ". When your mice and dogs were exposed to " + words[3].bold()
+        + " cigarette smoke, they developed " + words[4].bold() + " disease. Tobacco companies put charcoal " + words[5].bold()
+        + " on the ends of cigarettes, but they still spend millions of " + words[6].bold() + " advertising their " + words[7].bold()
+        + " product. If you smoke cigarettes, the tobacco will leave all kinds of tar and " + words[8].bold() + " in your lungs. This will make you cough and say, "
+        + words[9].bold() + "! Don't smoke cigarettes. Remember, only " + words[10].bold() + " smoke.";
+}
+
 /*Temperature Bug Project*/
 function temperatureBug()
 {
@@ -106,3 +132,4 @@ function assignGrade()
         return 'F'
     }
 }
+
