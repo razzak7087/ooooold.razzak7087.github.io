@@ -33,17 +33,6 @@
     color: white;}
 /* got this font code from w3schools */
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: inherit;
-    color: #f2f2f2;
-    text-align: center;
-    line-height: 75px;
-    padding: 120px 120px;
-    text-decoration: none;
-    font-size: 15px;
-}
-
 body
 {
     background-image: url("img/aesthetic.jpeg");
